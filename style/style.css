@@ -225,6 +225,9 @@ header{
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
     background-color: white;
 }
+.story-text{
+    padding: 20px;
+}
 .story-cards img{
     width: 100%;
     height: auto;
@@ -242,9 +245,15 @@ header{
     margin-top: -16px;
     position: absolute;
 }
+.btn-green{
+    background-color: #95B226;
+}
+.btn-purple{
+    background-color: #5D58F0;
+}
 .story-heading{
     margin: 20px 5px;
-
+    padding-left: 20px;
 }
 .story-btn{
     text-align: center;
@@ -393,7 +402,6 @@ header{
         font-size: x-small;
         border-radius: 20px;
         padding: 7px 14px;
-        background-color: #3CD8E8;
         margin-left: 15px;
         margin-top: -15px;
         position: absolute;
