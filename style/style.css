@@ -1,0 +1,423 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
+.quicksand-font {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+a{
+    text-decoration: none;
+}
+header{
+    width: 80%;
+    margin: 0 auto;
+}
+/* main{
+    width: 80%;
+    margin: 0 auto;
+} */
+
+.flex{
+    display: flex;
+}
+
+.navigation{
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+#logo{
+    align-items: center;
+    font-size: 2rem;
+}
+
+#nav-options{
+    list-style: none;
+    text-decoration: none;
+}
+
+.nav-items{
+    font-size: 1.25rem;
+    margin-right: 15%;
+    font-weight: 500;
+}
+
+#nav-options .nav-item-1{
+    color: #FEA301;
+}
+#nav-options .nav-item-2{
+    color: #01ACFD;
+}
+#nav-options .nav-item-3{
+    color: #05D4DF;
+}
+#nav-options .nav-item-4{
+    color: #5D58EF;
+}
+.nav-line{
+    display: none;
+}
+.btn-primary{
+    font-size: 1.25rem;
+    color: white;
+    background-color: #FEA301;
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    border: none;
+}
+#hero-heading{
+    font-size: 3.5rem;
+}
+.text-orange{
+    color: #FEA301;
+}
+.text-skyblue{
+    color: #01ACFD
+}
+#hero{
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+}
+.hero-heading{
+    font-size: 3.5rem;
+}
+.hero-text{
+    font-size: 1.25rem;
+    margin-top: 24px;
+}
+.btn-secondary{
+    color: white;
+    background-color: #111111;
+    height: 50px;
+    width: 197px;
+    border-radius: 12px;
+    font-size: 1.25rem;
+    margin-top: 34px;
+    border: none;
+}
+.hero-image{
+    height: 71.875%;
+    width: 46.9%;
+}
+
+#curriculum{
+    width: 80%;
+    margin: 0 auto;
+    background-image: url('../assets/bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+}
+.section-heading{
+    font-size: 2.9rem;
+    margin: 0 auto;
+    padding-top: 50px;
+    font: bold;
+    text-align: center;
+}
+.curriculum-content{
+    margin-top: 80px;
+    justify-content: space-around;
+    gap: 20px;
+}
+.curriculum-cards{
+    width: 367px;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.curriculum-box-1{
+    background: linear-gradient(180.00deg, rgb(222, 245, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-box-2{
+    background: linear-gradient(180.00deg, rgb(255, 244, 220),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-box-3{
+    background: linear-gradient(180.00deg, rgb(238, 225, 255),rgba(255, 255, 255, 0) 40%),rgb(255, 255, 255);
+}
+.curriculum-content-img{
+    padding-top: 50px;
+}
+.curriculum-content-heading{
+    font-size: 1.5rem;
+    color: #202020;
+    font:bold;
+    margin-top: 32px;
+}
+.curriculum-content-text{
+    font-size: 1rem;
+    color: #808080;
+    font: medium;
+    margin-top: 30px;
+}
+.curriculum-btn-1{
+    margin-top: 40px;
+    border: none;
+    color: #64C8FF;
+    font-size: 1rem;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+.curriculum-btn-2{
+    margin-top: 40px;
+    border: none;
+    color: #F0AA00;
+    font-size: 1rem;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+.curriculum-btn-3{
+    margin-top: 40px;
+    border: none;
+    color: #8700FF;
+    font-size: 1rem;
+    background-color: transparent;
+    margin-bottom: 30px;
+}
+
+.side-btn{
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin: 80px 0;
+}
+.button-side{
+    background-color: #FEA301;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+#stories{
+    background: url(../assets/bg.png),linear-gradient(0.00deg, rgba(254, 163, 1, 0.3),rgba(255, 255, 255, 0.3) 100%);
+    padding-bottom: 50px;
+    
+}
+.story-cards-all{
+    width: 80%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap:16px;
+    padding: 20px;
+}
+.story-cards{
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    background-color: white;
+}
+.story-cards img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.story-cards.story-card-1{
+    grid-row: span 2;
+}
+.date-btn{
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    background-color: #3CD8E8;
+    margin-left: 20px;
+    margin-top: -16px;
+    position: absolute;
+}
+.story-heading{
+    margin: 20px 5px;
+
+}
+.story-btn{
+    text-align: center;
+}
+.footer{
+    background-color: #01ACFD;
+
+}
+.footer-3-parts{
+    width: 80%;
+    margin: 0 auto;
+    padding: 50px 0;
+}
+.left-section{
+    width: 35%;
+    color: white;
+}
+.logo-text{
+    align-items: center;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
+.footer-brand-name{
+    font-size: 2.5rem;
+}
+.footer-left-text{
+    font-size: 1.25rem;
+}
+.middle-section{
+    width: 35%;
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-middle-heading{
+    font-size: 1.8rem;
+    color: white;
+}
+.footer-pages{
+    list-style: none;
+    margin-top: 20px;
+}
+.footer-pages li{
+    margin-bottom: 17px;
+}
+.list-items-footer{
+    font-size: 1.25rem;
+    color: white;
+}
+.footer-pages li:first-child {
+    margin-top: 55px;
+}
+.footer-right-section{
+    width: 30%;
+    text-align: center;
+    margin-top: 50px;
+    font: bold;
+}
+.footer-right-heading{
+    font-size: 1.8rem;
+    color: white;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px){
+    .nav-items{
+        display: none;
+    }
+    #nav-heading{
+        display: none;
+    }
+    .btn-primary{
+        display: none;
+    }
+    .nav-line{
+        display: block;
+        background-color: #FEA301;
+        width: 100%;
+        height: 3px;
+        border: none;
+        margin: 10px 0;
+        opacity: 0.5;
+    }
+    #hero{
+        flex-direction: column-reverse;
+    }
+    .hero-img-kid{
+        margin-top: 30px;
+        width: 335px;
+        height: 413px;
+    }
+    #hero-heading{
+        margin-top: 20px;
+        font-size: 2rem;
+        text-align: center;
+    }
+    .hero-text{
+        text-align: center;
+        font-size: 1rem;
+    }
+    .enroll-now{
+        width: 100%;
+        text-align: center;
+    }
+    .btn-secondary{
+        margin-top: 20px;
+    }
+    .section-heading{
+        font-size: 1.4rem;
+    }
+    .curriculum-content{
+        flex-direction: column;
+    }
+    .curriculum-cards{
+        width: 90%;
+        margin-bottom: 20px;
+    }
+    .side-btn{
+        display: none;
+    }
+    .story-card-1{
+        display: none;
+    }
+    .story-cards-all{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .footer-3-parts{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    .left-section{
+        width: 100%;
+    }
+    .middle-section{
+        width: 100%;
+    }
+    .footer-right-section{
+        width: 100%;
+    }
+    .logo-text{
+        display: flex;
+        justify-content: center;
+    }
+    .footer-pages li:first-child {
+        margin-top: 5px;
+    }
+
+
+
+
+
+
+
+
+
+
+}
