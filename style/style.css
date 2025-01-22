@@ -135,6 +135,7 @@ marquee {
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
+    background-position: center;
 }
 .section-heading{
     font-size: 2.9rem;
